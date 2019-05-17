@@ -1,11 +1,18 @@
-body{
+body {
     background: url("../img/background.jpg");
     background-size: cover;
 
 }
 
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
 .eaten{
-    margin-right: 100px
+    margin-right: 100px;
 }
 
 #burgerName{
