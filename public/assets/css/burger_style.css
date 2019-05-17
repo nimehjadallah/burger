@@ -1,0 +1,13 @@
+body{
+    background: url("../img/background.jpg");
+    background-size: cover;
+
+}
+
+.eaten{
+    margin-right: 100px
+}
+
+#burgerName{
+    margin-left: 420px;
+}
