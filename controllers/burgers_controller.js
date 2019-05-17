@@ -37,7 +37,7 @@ router.put("/api/burgers/:id", function(req, res) {
 });
 
 //takes information from textbox and creates new burger in database with devoured default false
-router.post("/api/burger", function(req, res) {
+router.post("/api/burgers", function(req, res) {
   burgers.insertOne(["burger_name"], [req.body.burger_name], function(result) {
     res.json({ id: result.insertID });
   });
