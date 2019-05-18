@@ -1,5 +1,7 @@
 # Eat Da Burger
 
+![](public/assets/img/burger.png)
+
 
 This is a simple restaurant app built with node express, mysql, and handlebars.
 
